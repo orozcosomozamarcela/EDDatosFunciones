@@ -6,11 +6,25 @@ using System.Threading.Tasks;
 
 namespace tarea5_orozco
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+      
+
+        public static void saludar()
         {
             Console.WriteLine("hola");
+            Console.WriteLine("que tal");
+            Console.WriteLine("como estas");
+        }
+
+        public static void Main()
+        {
+            saludar();
+            Console.WriteLine("vos podes");
+
+
+
         }
     }
+
 }
